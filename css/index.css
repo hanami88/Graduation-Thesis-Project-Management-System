@@ -1,0 +1,132 @@
+html {
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+}
+.bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+.login {
+  height: 812px;
+  background-color: white;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.login-title {
+  font-size: 55px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+.login-picture {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 60px;
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.login-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user {
+  width: 360px;
+  margin-bottom: 35px;
+  height: 60px;
+  border-radius: 15px;
+  border: 2px solid #000000;
+  padding-left: 50px;
+  font-size: 18px;
+  &:focus {
+    outline: none;
+    border: 2px solid #004aad;
+  }
+}
+.password {
+  width: 360px;
+  margin-bottom: 10px;
+  height: 60px;
+  border-radius: 15px;
+  border: 2px solid #000000;
+  padding-left: 50px;
+  font-size: 18px;
+  &:focus {
+    outline: none;
+    border: 2px solid #004aad;
+  }
+}
+
+.btn {
+  width: 410px;
+  height: 65px;
+  border-radius: 15px;
+  border: none;
+  background-color: #a1aeb5;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    background-color: #727b80;
+    color: rgba(255, 255, 255, 0.519);
+  }
+  margin-bottom: 80px;
+}
+
+.user-container {
+  position: relative;
+  &:focus-within {
+    color: #004aad;
+  }
+}
+.password-container {
+  position: relative;
+  &:focus-within {
+    color: #004aad;
+  }
+}
+.fa-user {
+  position: absolute;
+  font-size: 40px;
+  top: 12px;
+  left: 10px;
+}
+.fa-lock {
+  position: absolute;
+  font-size: 40px;
+  top: 12px;
+  left: 10px;
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
