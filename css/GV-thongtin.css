@@ -40,7 +40,7 @@ body {
 .fa-solid {
   color: white;
   font-size: 4rem;
-  margin-right: 1rem;
+  margin-right: 1.5rem;
   width: 4rem;
   margin-left: 1rem;
 }
@@ -48,6 +48,7 @@ span {
   font-size: 2rem;
   color: white;
   font-weight: 600;
+  line-height: 2.5rem;
 }
 
 h1 {
@@ -130,77 +131,106 @@ h1 {
   width: 15rem;
 }
 
-/*------------------------------------------------------------*/
-.right-container {
-  width: 1000px;
-  height: 80%;
-  margin-top: 40px;
-}
-.right-container-top {
+.thongtincanhan {
+  margin-top: 4rem;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin-bottom: 50px;
+  width: 100rem;
+}
+.picture-box {
+  width: 15rem;
+  height: 18rem;
+  border: 0.2rem solid black;
+}
+.picture {
+  width: 15rem;
+  height: 18rem;
+}
+.thongtin1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18rem;
 }
 
 .thongtin1-box1 {
   display: flex;
   justify-content: end;
   align-items: center;
-  margin-bottom: 4px;
 }
 .thongtin1-box1 > :nth-child(1) {
-  font-size: 17px;
-  margin-right: 10px;
+  font-size: 1.7rem;
+  margin-right: 1rem;
 }
 .thongtin1-box1 > :nth-child(2) {
-  width: 200px;
-  height: 30px;
+  width: 20rem;
+  height: 3rem;
   background-color: #e1e1e1;
-  font-size: 17px;
+  font-size: 1.7rem;
   font-weight: 600;
-  border-radius: 10px;
-  padding: 12px 0px 0px 10px;
+  border-radius: 1rem;
+  padding: 1.2rem 0rem 0rem 1rem;
 }
-.right-container-detail {
-  display: flex;
-  align-items: center;
-}
-.right-container-detail > :nth-child(1) {
-  font-size: 17px;
-  color: black;
-  font-weight: 500;
-  margin-right: 20px;
-}
-.right-container-detail > :nth-child(2) {
-  width: 390px;
-  height: 190px;
-  border-radius: 8px;
-  border: 1.5px solid black;
-  font-size: 16px;
+.special {
+  background-color: white;
+  width: 20rem;
+  height: 3rem;
+  font-size: 1.7rem;
   font-weight: 600;
-  padding-top: 10px;
-  padding-left: 10px;
-  font-family: "Roboto", sans-serif;
+  border-radius: 1rem;
+  padding: 1.2rem 0rem 0rem 1rem;
+  color: white;
 }
-.right-container-cmt {
+.change-password {
+  margin-top: 5rem;
+  width: 13rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  border: 0.1rem solid gray;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    background-color: #0054e6;
+    color: white;
+  }
+  margin-bottom: 5rem;
+}
+.formchange-passwork {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.right-container-cmt > :nth-child(1) {
-  font-size: 18px;
-  color: black;
+.formchange-passwork input {
+  width: 60rem;
+  height: 4rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+  border: 0.15rem solid #1e3050;
+  padding-left: 2rem;
 }
-.right-container-cmt > :nth-child(2) {
-  font-size: 16px;
+.okpassword {
+  width: 13rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  border: none;
   font-weight: 600;
-  padding-top: 10px;
-  padding-left: 10px;
-  border-radius: 8px;
-  border: 1.5px solid black;
-  height: 270px;
-  width: 1000px;
-  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  background-color: #1e3050;
+  color: white;
+  margin-top: 2rem;
+  &:hover {
+    background-color: #0054e6;
+  }
+}
+.formchange-passwork.hidden {
+  display: none;
+}
+.change-password.on {
+  background-color: #0054e6;
+  color: white;
 }

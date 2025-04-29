@@ -1,6 +1,10 @@
 html {
   overflow: hidden;
   font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 .bg {
   width: 100%;
@@ -19,27 +23,31 @@ html {
   justify-content: end;
 }
 .login {
-  height: 812px;
+  height: 81.2rem;
   background-color: white;
   width: 33%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) rem 5.4rem 5.5rem,
+    rgba(0, 0, 0, 0.12) 0rem -1.2rem 3rem, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0rem 1.2rem 1.3rem, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-
+.remember-title,
+.fgpass {
+  font-size: 1.6rem;
+  text-decoration: none;
+}
 .login-title {
-  font-size: 55px;
+  font-size: 5.5rem;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
 }
 .login-picture {
-  width: 75px;
-  height: 75px;
-  margin-bottom: 60px;
+  width: 7.5rem;
+  height: 7.5rem;
+  margin-bottom: 6rem;
 }
 .login-form {
   display: flex;
@@ -49,7 +57,7 @@ html {
 .login-container {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 .remember {
   display: flex;
@@ -57,47 +65,47 @@ html {
   align-items: center;
 }
 .user {
-  width: 360px;
-  margin-bottom: 35px;
-  height: 60px;
-  border-radius: 15px;
-  border: 2px solid #000000;
-  padding-left: 50px;
-  font-size: 18px;
+  width: 36rem;
+  margin-bottom: 3.5rem;
+  height: 6rem;
+  border-radius: 1.5rem;
+  border: 0.2rem solid #000000;
+  padding-left: 5rem;
+  font-size: 1.8rem;
   &:focus {
     outline: none;
-    border: 2px solid #004aad;
+    border: 0.2rem solid #004aad;
   }
 }
 .password {
-  width: 360px;
-  margin-bottom: 10px;
-  height: 60px;
-  border-radius: 15px;
-  border: 2px solid #000000;
-  padding-left: 50px;
-  font-size: 18px;
+  width: 36rem;
+  margin-bottom: 1rem;
+  height: 6rem;
+  border-radius: 1.5rem;
+  border: 0.2 solid #000000;
+  padding-left: 5rem;
+  font-size: 1.8rem;
   &:focus {
     outline: none;
-    border: 2px solid #004aad;
+    border: 0.2rem solid #004aad;
   }
 }
 
 .btn {
-  width: 410px;
-  height: 65px;
-  border-radius: 15px;
+  width: 41rem;
+  height: 6.5rem;
+  border-radius: 1.5rem;
   border: none;
   background-color: #a1aeb5;
   color: white;
-  font-size: 19px;
+  font-size: 1.9rem;
   font-weight: 600;
   cursor: pointer;
   &:hover {
     background-color: #727b80;
     color: rgba(255, 255, 255, 0.519);
   }
-  margin-bottom: 80px;
+  margin-bottom: 8rem;
 }
 
 .user-container {
@@ -114,19 +122,19 @@ html {
 }
 .fa-user {
   position: absolute;
-  font-size: 40px;
-  top: 12px;
-  left: 10px;
+  font-size: 4rem;
+  top: 1.2rem;
+  left: 1rem;
 }
 .fa-lock {
   position: absolute;
-  font-size: 40px;
-  top: 12px;
-  left: 10px;
+  font-size: 4rem;
+  top: 1.2rem;
+  left: 1rem;
 }
 
 input[type="checkbox"] {
-  width: 16px;
-  height: 16px;
+  width: 1.6rem;
+  height: 1.6rem;
   cursor: pointer;
 }

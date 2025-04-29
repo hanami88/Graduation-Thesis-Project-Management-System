@@ -3,6 +3,8 @@ html {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
+  font-size: 62.5%;
+  position: fixed;
 }
 body {
   width: 100%;
@@ -17,7 +19,7 @@ body {
   height: 100%;
   background-color: #1e3050;
   width: 20%;
-  border-radius: 0px 10px 10px 0;
+  border-radius: 0rem 1rem 1rem 0;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
@@ -31,44 +33,44 @@ body {
   align-items: center;
 }
 .gachngang {
-  width: 2592px;
-  height: 2px;
+  width: 259.2rem;
+  height: 0.2rem;
   background-color: #1e3050;
 }
 .fa-solid {
   color: white;
-  font-size: 40px;
-  margin-right: 10px;
-  width: 40px;
-  margin-left: 10px;
+  font-size: 4rem;
+  margin-right: 1rem;
+  width: 4rem;
+  margin-left: 1rem;
 }
 span {
-  font-size: 20px;
+  font-size: 2rem;
   color: white;
   font-weight: 600;
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 3rem;
   color: white;
   font-weight: 600;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
 }
 .gachngang {
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .xinchao {
   display: flex;
   align-items: center;
-  width: 250px;
-  margin-bottom: 20px;
+  width: 25rem;
+  margin-bottom: 2rem;
 }
 .gachngang2 {
-  width: 287px;
-  height: 2px;
+  width: 28.7rem;
+  height: 0.2rem;
   background-color: white;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 .detail,
 .progess,
@@ -76,11 +78,11 @@ h1 {
 .info {
   display: flex;
   align-items: center;
-  width: 250px;
-  height: 50px;
-  margin-bottom: 50px;
+  width: 25rem;
+  height: 5rem;
+  margin-bottom: 5rem;
   text-decoration: none;
-  border-radius: 15px;
+  border-radius: 1rem;
   transition: all 0.3s ease;
   &:hover {
     transform: scale(1.1);
@@ -90,9 +92,9 @@ h1 {
 .hienthi {
   display: flex;
   justify-content: space-between;
-  width: 1100px;
-  margin-top: 10px;
-  margin-left: 20px;
+  width: 110rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
 }
 .hienthi-thongtin {
   display: flex;
@@ -106,11 +108,11 @@ h1 {
 }
 .btn-out {
   cursor: pointer;
-  width: 150px;
-  height: 40px;
+  width: 15rem;
+  height: 4rem;
   display: flex;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 1rem;
   border: none;
   background-color: #1e3050;
   &:hover {
@@ -118,13 +120,116 @@ h1 {
   }
 }
 .fa-right-from-bracket {
-  font-size: 25px;
-  margin-right: 0px;
-  margin-left: 5px;
+  font-size: 2.5rem;
 }
 .out {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-weight: 600;
   color: white;
-  margin-right: 10px;
+  margin-right: 1rem;
+  width: 15rem;
+}
+
+.thongtincanhan {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100rem;
+}
+.picture-box {
+  width: 15rem;
+  height: 18rem;
+  border: 0.2rem solid black;
+}
+.picture {
+  width: 15rem;
+  height: 18rem;
+}
+.thongtin1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18rem;
+}
+
+.thongtin1-box1 {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.thongtin1-box1 > :nth-child(1) {
+  font-size: 1.7rem;
+  margin-right: 1rem;
+}
+.thongtin1-box1 > :nth-child(2) {
+  width: 20rem;
+  height: 3rem;
+  background-color: #e1e1e1;
+  font-size: 1.7rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  padding: 1.2rem 0rem 0rem 1rem;
+}
+.special {
+  background-color: white;
+  width: 20rem;
+  height: 3rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  padding: 1.2rem 0rem 0rem 1rem;
+  color: white;
+}
+.change-password {
+  margin-top: 5rem;
+  width: 13rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  border: 0.1rem solid gray;
+  font-weight: 600;
+  cursor: pointer;
+  &:hover {
+    background-color: #0054e6;
+    color: white;
+  }
+  margin-bottom: 5rem;
+}
+.formchange-passwork {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formchange-passwork input {
+  width: 60rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  border-radius: 1rem;
+  border: 0.15rem solid #1e3050;
+  padding-left: 2rem;
+}
+.okpassword {
+  width: 13rem;
+  height: 4rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #1e3050;
+  color: white;
+  margin-top: 2rem;
+  &:hover {
+    background-color: #0054e6;
+  }
+}
+.formchange-passwork.hidden {
+  display: none;
+}
+.change-password.on {
+  background-color: #0054e6;
+  color: white;
 }
