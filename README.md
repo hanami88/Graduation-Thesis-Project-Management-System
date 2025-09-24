@@ -17,7 +17,6 @@ As the **team leader**, I was responsible for coordinating development and imple
 ## 🛠️ Technologies Used
 
 ### 👨‍💻 Frontend
-
 - HTML5  
 - CSS3  
 - JavaScript (ES6+)  
@@ -49,15 +48,6 @@ As the **team leader**, I was responsible for coordinating development and imple
 - ✅ Grade entry (manual and via Excel)  
 - ✅ Admin dashboard to manage users, topics, and statistics  
 - ✅ Role-specific interface for each user type
-
----
-
-## 👥 Team Members
-
-- Mai Anh Luân – Team Leader / Frontend Developer  
-- Đàm Duy Thái – Backend Developer  
-- Đoàn Dương Anh Kiệt – Frontend Developer  
-- Dương Minh Hữu – Backend Developer  
 
 ---
 
