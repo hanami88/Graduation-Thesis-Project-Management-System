@@ -40,17 +40,6 @@ As the **team leader**, I was responsible for coordinating development and imple
 
 ---
 
-## 🚀 Key Features
-
-- ✅ Topic registration, approval, and lecturer assignment  
-- ✅ Progress tracking with milestone updates  
-- ✅ Bi-directional feedback between students and lecturers  
-- ✅ Grade entry (manual and via Excel)  
-- ✅ Admin dashboard to manage users, topics, and statistics  
-- ✅ Role-specific interface for each user type
-
----
-
 ## 🔍 Project Insight
 
 > Since this was a new and rarely implemented topic, we conducted our own research by interviewing lecturers and students to understand their real workflow.  
